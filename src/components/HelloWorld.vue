@@ -1,10 +1,10 @@
 <template>
   <div>
     <Navbar></Navbar>
-    <Herosection></Herosection>
+    <Herosection id="home"></Herosection>
     <Showreel></Showreel>
     <Building></Building>
-    <Benefit></Benefit>
+    <Benefit id="benefits"></Benefit>
     <BenefitContent></BenefitContent>
     <Quote></Quote>
     <Services id="services"></Services>
@@ -20,7 +20,7 @@
     <Owner></Owner>
     <Pricing id="pricing"></Pricing>
     <PricingPlans></PricingPlans>
-    <About></About>
+    <About id="about"></About>
     <TeamSection></TeamSection>
     <FaqSection></FaqSection>
     <Form></Form>

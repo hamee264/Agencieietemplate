@@ -4,17 +4,21 @@
       <div class="footer-top">
         <div class="footer-brand">
           <h1>Agencie.co</h1>
-          <p>The next big thing starts here—<br />drop us a line and let’s get creating!</p>
+          <p>
+            The next big thing starts here—<br />drop us a line and let’s get
+            creating!
+          </p>
         </div>
 
         <div class="footer-links">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Benefits</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#about">About</a></li>
           </ul>
+
           <ul>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">Facebook</a></li>
@@ -49,18 +53,22 @@
       <div class="footer-divider"></div>
 
       <div class="footer-bottom">
-        <p>©Template by RealMehedi</p>
+        <p>©Template by BeanDev</p>
       </div>
     </div>
   </footer>
 </template>
 
 <style scoped>
+html {
+  scroll-behavior: smooth;
+}
+
 .agencie-footer {
   background-color: #0a0a0a;
   color: white;
   padding: 80px 20px 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-content {
