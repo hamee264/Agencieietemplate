@@ -58,10 +58,10 @@ header {
   padding: 20px 30px;
   z-index: 999;
   position: relative;
-  position: static;
+  
   width: 100%;
   z-index: 99999999;
-  box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
+ 
 
 }
 
